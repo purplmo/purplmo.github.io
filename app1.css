@@ -1,0 +1,84 @@
+
+:root{
+  background-color: #cba4d6;
+}
+.btn{
+  border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #56a5eb;
+    margin: 10px 10px 10px 10px;
+}
+.Kanji{
+  border: dashed #56a5eb;
+  border-radius: 10px;
+  width: 20%;
+  margin:20px 20px 20px 20px;
+
+}
+.toh{
+  border: dashed #56a5eb;
+  border-radius: 10px;
+  width: 20%;
+  margin:20px 20px 20px 20px;
+}
+.countdown{
+  font-size: 20px;
+}
+#clock{
+  font-size: 20px;
+  padding: 10px;
+  background-color: #56a5eb;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.Navbar {
+    background-color: #a746c2;
+    display: flex;
+    padding: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  .Navbar__Link {
+    padding-right: 8px;
+  }
+  
+  .Navbar__Items {
+    display: flex;
+  }
+  
+ 
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+      
+  .Navbar__Items {
+      display:none;
+    }
+      
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+      
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }
