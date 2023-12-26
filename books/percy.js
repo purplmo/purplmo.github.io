@@ -1,7 +1,8 @@
 function displayTime(){
     let clock = document.querySelector("#clock");
     let now = new Date();
-    clock.textContent = 20-now.getDate() + " Days Until Series Release"; //+ now.getHours();
+    let hour= 21-now.getHours() 
+    clock.textContent = 26-now.getDate() + " Days and " + hour + " Hours Until Next Episode"; //+ now.getHours();
   }
   displayTime()
   setInterval(displayTime, 1000);

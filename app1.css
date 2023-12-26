@@ -32,6 +32,32 @@
   border-radius: 10px;
   margin-bottom: 10px;
 }
+.book{
+  float: left;
+  width: 45%;
+}
+.TV{
+  width: 50%;
+  float: right;
+  border: black solid;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .book {
+    width: 100%;
+  }
+  .TV{
+    width:100%
+  }
+}
 .Navbar {
     background-color: #a746c2;
     display: flex;
