@@ -2,6 +2,12 @@
 :root{
   background-color: #cba4d6;
 }
+.percy_color{
+  background-color: #a4c8d6;
+  border: black dotted;
+  border-radius: 10px;
+
+}
 .btn{
   border: 0.1rem solid #56a5eb;
     margin-bottom: 1rem;
